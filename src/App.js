@@ -4,7 +4,7 @@ import { Magic } from "magic-sdk";
 import { CosmosExtension } from "@magic-ext/cosmos";
 import { coins } from "@cosmjs/launchpad";
 
-const magic = new Magic("pk_test_14BB008A685E26E4", {
+const magic = new Magic("pk_test_60CB978950B2501B", {
     extensions: {
         cosmos: new CosmosExtension({
             rpcUrl: "http://localhost:1317"
