@@ -19,7 +19,7 @@ export default function App() {
   const [txHash, setTxHash] = useState('');
   const [sendTokensTxHash, setSendTokensTxHash] = useState('');
 
-  const magic = new Magic('pk_live_D00A9FBB6C2E3435', {
+  const magic = new Magic("pk_live_D00A9FBB6C2E3435", {
     extensions: {
       cosmos: new CosmosExtension({ rpcUrl }),
     },
@@ -46,14 +46,14 @@ export default function App() {
       const client = await getCosmosClient();
       const balances = await client.getAllBalances(publicAddress);
       console.log('Balances', balances);
-      setBalance(balances[0]?.amount / 1000000);
+      setBalance((balances[0]?.amount || 0) / 1000000);
     } catch (error) {
       console.error('Error fetching balance: ', error);
     }
   };
 
   const login = async () => {
-    await magic.auth.loginWithMagicLink({ email });
+    await magic.auth.loginWithEmailOTP({ email });
     setIsLoggedIn(true);
   };
 

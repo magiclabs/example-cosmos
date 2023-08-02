@@ -1713,10 +1713,10 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@magic-ext/cosmos@^13.4.1":
-  version "13.4.1"
-  resolved "https://registry.yarnpkg.com/@magic-ext/cosmos/-/cosmos-13.4.1.tgz#a0f1d037ca663d0f031060631a8bc24196194523"
-  integrity sha512-/HnbiPn4VB461pRdQO6YP8AzYuRMqbjzok9+xS07SGT38I/p4az6pzdkksTX8P0TrUYeQbDhGBunidtpNZvtsA==
+"@magic-ext/cosmos@^14.0.0":
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/@magic-ext/cosmos/-/cosmos-14.0.0.tgz#78c73695cc201d42ec1f093ebf0fbf9a90cd8fd2"
+  integrity sha512-Vt0grsi99M/vadDTdx2gzh9Z3Eeg7Y4YbNszYOkM1dUDf+D0PNbYETqo65hXMLvor3XoelKZZNHGCQmqdEUeHw==
 
 "@magic-sdk/commons@^14.4.1":
   version "14.4.1"

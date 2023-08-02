@@ -9,7 +9,7 @@
   "main": "src/index.js",
   "dependencies": {
     "@cosmjs/stargate": "^0.31.0",
-    "@magic-ext/cosmos": "^13.4.1",
+    "@magic-ext/cosmos": "^14.0.0",
     "magic-sdk": "^18.4.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -20,7 +20,7 @@
     "typescript": "4.1.3"
   },
   "scripts": {
-    "start": "PORT=3020 react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
