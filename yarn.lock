@@ -1718,24 +1718,24 @@
   resolved "https://registry.yarnpkg.com/@magic-ext/cosmos/-/cosmos-14.0.0.tgz#78c73695cc201d42ec1f093ebf0fbf9a90cd8fd2"
   integrity sha512-Vt0grsi99M/vadDTdx2gzh9Z3Eeg7Y4YbNszYOkM1dUDf+D0PNbYETqo65hXMLvor3XoelKZZNHGCQmqdEUeHw==
 
-"@magic-sdk/commons@^14.4.1":
-  version "14.4.1"
-  resolved "https://registry.yarnpkg.com/@magic-sdk/commons/-/commons-14.4.1.tgz#37ed9beb8d2be3ce0aadfeefcf5b1d17a6fe63fc"
-  integrity sha512-95TKL37p4NW4C6krJk3iQr5wXZW8vCjuFgFoYqqMuutl8MenQ0BSvL1lwA74sR9DM3MsDqYaDvwE4dsT0EgzZA==
+"@magic-sdk/commons@^15.0.0":
+  version "15.0.0"
+  resolved "https://registry.yarnpkg.com/@magic-sdk/commons/-/commons-15.0.0.tgz#7ac0113046ce9be5d207f141000260cab08814f8"
+  integrity sha512-67GeWjWUhafQBZQuOo+cWVssa+8zlii1k/GDDIK2zVn3dqqeVi5WRq2jq3W4E5KciBgh2/0NipC+W3nGyDg5+g==
 
-"@magic-sdk/provider@^18.4.1":
-  version "18.4.1"
-  resolved "https://registry.yarnpkg.com/@magic-sdk/provider/-/provider-18.4.1.tgz#3cf2514ff48dcf3f79008f30f8f6be258e9ac90a"
-  integrity sha512-IWqvYmZ4KFse38eS0uPy8cu8zlSO/F5ipM0GNJ2iuakkiFocS6RPvgs70+CBrbWdL9aCSx/j6Ar9b9q4Jv7pcQ==
+"@magic-sdk/provider@^19.0.0":
+  version "19.0.0"
+  resolved "https://registry.yarnpkg.com/@magic-sdk/provider/-/provider-19.0.0.tgz#df6a983fb0c7e9ec3f2faf5e0ed2af84f79f2ec0"
+  integrity sha512-8FEsw24el9kBzEVb1hAvO4IjZHHMkbhGvUKrh7vUWVK6Rl06gsObaWt9C+lhyqKYXPPlIUIFYpq9qbg5hXOeIw==
   dependencies:
-    "@magic-sdk/types" "^15.6.1"
+    "@magic-sdk/types" "^16.0.0"
     eventemitter3 "^4.0.4"
     web3-core "1.5.2"
 
-"@magic-sdk/types@^15.6.1":
-  version "15.6.1"
-  resolved "https://registry.yarnpkg.com/@magic-sdk/types/-/types-15.6.1.tgz#c1ece39c24409488ad86c5ce73f1fc75bc2a4d94"
-  integrity sha512-lYcUzRqp5NFE9VgXPFXmlC14Iq8+6AodikKHhi16XyPteMoO3dCwKevdFNw3uSX3/aPjMLh2LKJ0qwqsCPgocQ==
+"@magic-sdk/types@^16.0.0":
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/@magic-sdk/types/-/types-16.0.0.tgz#5c01c210cdb86938ec974a0e2870fa90d914b43b"
+  integrity sha512-9hOK1wyvHjr2sUVH5Iv+7wjjiu3j3wFrLW1H2DGXdsHYNjz2Nzc/fstOe4q2Mo0WpEmrXREYdc+j7fIPNKl50A==
 
 "@nicolo-ribaudo/semver-v6@^6.3.3":
   version "6.3.3"
@@ -7671,14 +7671,14 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-magic-sdk@^18.4.1:
-  version "18.4.1"
-  resolved "https://registry.yarnpkg.com/magic-sdk/-/magic-sdk-18.4.1.tgz#b48d6ea0387a1d2711d39cb5dccd856d6f5bacfe"
-  integrity sha512-2WAQbT1fomodSMt72SNDgiea1BNBa2RC6O+bAtnz6CHcrmaj7jjARLz7nuXpASK9E4MQWpnz9s2z3RQdbpIvDw==
+magic-sdk@^19.0.0:
+  version "19.0.0"
+  resolved "https://registry.yarnpkg.com/magic-sdk/-/magic-sdk-19.0.0.tgz#ebd85f4f6449ac3b7360ceccc088fb4d8275108c"
+  integrity sha512-8t3PdTZcnvit+E/H0GCQV7ME+UcB96aZCfRXaRAuccmVE4RcpYlVtVx+mlIZzuIc8Ouo6HNqbYQaJeN1j871EQ==
   dependencies:
-    "@magic-sdk/commons" "^14.4.1"
-    "@magic-sdk/provider" "^18.4.1"
-    "@magic-sdk/types" "^15.6.1"
+    "@magic-sdk/commons" "^15.0.0"
+    "@magic-sdk/provider" "^19.0.0"
+    "@magic-sdk/types" "^16.0.0"
     localforage "^1.7.4"
 
 magic-string@^0.25.0, magic-string@^0.25.7:
