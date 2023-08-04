@@ -7,7 +7,7 @@ import { Tx } from 'cosmjs-types/cosmos/tx/v1beta1/tx';
 import { MsgSend } from 'cosmjs-types/cosmos/bank/v1beta1/tx';
 
 export default function App() {
-  const rpcUrl = 'rpc.sentry-01.theta-testnet.polypore.xyz:26657';
+  const rpcUrl = 'wss://rpc.sentry-01.theta-testnet.polypore.xyz:26657';
   const [email, setEmail] = useState('');
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [publicAddress, setPublicAddress] = useState('');
