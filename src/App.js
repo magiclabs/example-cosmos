@@ -19,7 +19,7 @@ export default function App() {
   const [txHash, setTxHash] = useState('');
   const [sendTokensTxHash, setSendTokensTxHash] = useState('');
 
-  const magic = new Magic("pk_live_D00A9FBB6C2E3435", {
+  const magic = new Magic("pk_live_8D40A7E251F283ED", {
     extensions: {
       cosmos: new CosmosExtension({ rpcUrl }),
     },
