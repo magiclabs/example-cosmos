@@ -7,7 +7,7 @@ import { Tx } from 'cosmjs-types/cosmos/tx/v1beta1/tx';
 import { MsgSend } from 'cosmjs-types/cosmos/bank/v1beta1/tx';
 
 export default function App() {
-  const rpcUrl = 'wss://https://rpc.sentry-01.theta-testnet.polypore.xyz:26657';
+  const rpcUrl = 'https://rpc.sentry-01.theta-testnet.polypore.xyz';
   const [email, setEmail] = useState('');
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [publicAddress, setPublicAddress] = useState('');
@@ -19,7 +19,7 @@ export default function App() {
   const [txHash, setTxHash] = useState('');
   const [sendTokensTxHash, setSendTokensTxHash] = useState('');
 
-  const magic = new Magic("pk_live_8D40A7E251F283ED", {
+  const magic = new Magic("pk_live_D00A9FBB6C2E3435", {
     extensions: {
       cosmos: new CosmosExtension({ rpcUrl }),
     },
